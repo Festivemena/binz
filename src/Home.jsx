@@ -1,5 +1,5 @@
 import "./App.css";
-import logo from "../src/assets/images/logo.png";
+import logo from "../src/assets/images/sb.png";
 import consult from "../src/assets/images/consult.png";
 import security from "../src/assets/images/security.png";
 import mobile from "../src/assets/images/mobile.png";
@@ -21,27 +21,27 @@ const data = {
   title: "",
   rows: [
     {
-      title: "What services does Xpace provide?",
-      content: ` Our agency specializes in mobile app and web development, hosting/deployment, UI/UX design, consultancy, and cybersecurity. We offer comprehensive solutions to help businesses enhance their digital presence, secure their online assets, and leverage technology effectively.`,
+      title: "What services does BinZ provide?",
+      content: ` BinZ offers advanced smart bin solutions that focus on the efficient collection, classification, and recycling of plastic waste. Our services emphasize innovative waste management technology, ensuring the secure handling of waste data, and providing timely notifications for waste collection. BinZ aims to enhance user satisfaction through high-quality, transparent communication and effective waste management practices, ultimately contributing to a cleaner and more sustainable environment..`,
     },
     {
-      title: "How does Xpace approach mobile app and web development?",
+      title: "How does BinZ approach mobile app and web development?",
       content:
         "Our team of skilled professionals combines technical expertise, creativity, and a user-centric approach to deliver exceptional mobile app and web development solutions. We focus on creating seamless experiences, captivating designs, and robust functionality to meet the unique needs of our clients.",
     },
     {
-      title: " How do I get started with Xpace?",
-      content: `Getting started is easy! Simply reach out to us through our website by requesting a quote. We'll schedule a consultation to discuss your specific needs and goals. From there, we'll work together to develop a tailored solution that meets your requirements and sets you on the path to digital success.`,
+      title: " How do I get started with BinZ?",
+      content: `Getting started is easy! Simply reach out to us through our social handles or contact links. We'll promise prompt response from our Help Desk team.`,
     },
     {
-      title: "What industries does your agency serve?",
+      title: "What industries does BinZ serve?",
       content:
-        "We have experience working with clients across various industries, including but not limited to e-commerce, healthcare, finance, education, and technology. Our expertise allows us to adapt to the unique requirements of different industries and deliver tailored solutions that drive results.",
+        "BinZ offers a range of adaptive features that makes it both capable and relavant in many sectors and walks of life, our Adaptive solution can be effective at homes, business areas, schools, public spaces and goverment locations.",
     },
     {
-      title: " How does Xpace ensure customer satisfaction?",
+      title: " How does BinZ ensure customer satisfaction?",
       content:
-        "Customer satisfaction is at the core of everything we do. We prioritize open communication, transparency, and collaboration throughout the entire project lifecycle. We actively listen to our clients' needs, provide regular updates, and ensure that projects are delivered on time, within budget, and to the highest standards of quality. Our goal is to exceed expectations and build long-lasting partnerships based on trust and mutual success.",
+        "We place a strong emphasis on user satisfaction and strive to exceed expectations in every project. By actively listening to our clients' needs, we provide transparent communication throughout the process and deliver high-quality smart bin solutions that meet their objectives. Our goal is to build long-lasting partnerships based on trust and mutual success, ensuring that our clients are delighted with the efficiency and effectiveness of our waste management systems.",
     },
   ],
 };
@@ -272,22 +272,15 @@ const handleCloseModal = () => {
             </div>
             <div className=" h-full items-center md:mt-0 mt-6 justify-center md:mx-6 mx-6 flex-col flex md:gap-32 gap-6 font-outfit ">
               <div className="w-[100%] justify-center flex flex-col md:flex-row md:gap-10 gap-6">
-                <div className="  bg-blue-100 mx-4 border-2 border-black  md:px-4 shadow-solid-about rounded flex-col items-center justify-center text-center">
+                <div className="  bg-blue-100 border-2 border-black  md:px-4 mt-6 mx-4 shadow-solid-about rounded flex-col items-center justify-center text-center">
                   <div className=" flex md:mx-40 mx-28 items-center w-[100px] h-[50px]">
-                    <img src={mobile} />
+                    <img src={mobile} /> 
                   </div>
                   <h1 className="md:text-3xl text-xl text-violet-600 font-semibold pt-5">
                     Waste Collection
                   </h1>
                   <h5 className="text-sm md:text-md flex p-4 md:px-8 md:pt-5">
-                    we offer a seamless mobile app development experience. From
-                    ideation to execution, our team combines innovation and
-                    expertise to deliver captivating and functional mobile apps.
-                    With a user-centric approach and meticulous attention to
-                    detail, we ensure that every app we create exceeds
-                    expectations and leaves a lasting impression. Step into the
-                    realm of mobile app excellence and let us bring your vision
-                    to life.
+                  Our innovative solution at BinZ ensures the effective and hygienic collection of waste, preventing contamination and disease spread. Our smart bins create a barrier between users and collected trash, ensuring safety and cleanliness. Additionally, when a bin is full, our system promptly notifies waste collection officers for immediate pick-up, ensuring efficient and timely waste management.
                   </h5>
                 </div>
                 <div className=" bg-blue-100 border-2 border-black  md:px-4 mt-6 mx-4 shadow-solid-about rounded flex-col items-center justify-center text-center">
@@ -298,14 +291,7 @@ const handleCloseModal = () => {
                     Waste Classification
                   </h1>
                   <h5 className="text-sm md:text-md p-4 md:px-8 md:pt-5">
-                    Ignite your online presence with our web development
-                    expertise. From stunning designs to seamless functionality,
-                    we create captivating websites that leave a lasting
-                    impression. Whether it's a sleek corporate site, an
-                    immersive e-commerce platform, or a dynamic web application,
-                    we deliver exceptional results that exceed expectations.
-                    Step into the world of web excellence and let us bring your
-                    digital vision to life.
+                  BinZ stands as a testament to effective waste classification. Our advanced smart bin technology ensures precise sorting of waste, maximizing recycling efficiency and minimizing environmental impact. With BinZ, waste is meticulously classified, contributing to a cleaner and more sustainable future.
                   </h5>
                 </div>
                 <div className=" bg-blue-100 mt-6 mx-4 border-2 border-black  md:px-4 shadow-solid-about rounded flex-col items-center justify-center text-center">
@@ -316,14 +302,7 @@ const handleCloseModal = () => {
                     Effective Recycling
                   </h1>
                   <h5 className="text-sm md:text-md  p-4 md:px-8 md:pt-5">
-                    With our deployment and hosting services, you can rest
-                    assured that your website or application is in capable
-                    hands. We handle the technical complexities, allowing you to
-                    concentrate on growing your business and delivering
-                    exceptional experiences to your users. Experience the peace
-                    of mind that comes with seamless deployment and reliable
-                    hosting, and let us take your digital presence to new
-                    heights.
+                  With our advanced recycling solutions, you can rest assured that waste management is in capable hands. We handle the complexities of waste collection and classification, allowing you to focus on your core business and deliver exceptional results. Experience the peace of mind that comes with efficient recycling and reliable waste management, and let us take your sustainability efforts to new heights.
                   </h5>
                 </div>
               </div>
@@ -457,8 +436,8 @@ const handleCloseModal = () => {
         </div>
         <div className="w-full h-full flex items-end justify-center py-3 text-center px-6 bg-gray-800">
           <h1 className="flex gap-2 font-thin text-gray-500 md:text-lg text-sm ">
-            © 2023 BinZ inc. All Rights Reserved.
-            <a className="text-violet-500" href="mailto:product@xpace.rocks" >product@xpace.rocks</a>
+            © 2024 BinZ inc. All Rights Reserved.
+            <a className="text-violet-500" href="mailto:product@xpace.rocks" >product@binz.rocks</a>
           </h1>
         </div>
       </div>

@@ -33,21 +33,14 @@ useCountUp({
             <div>
               <div className="orange-circle"></div>
               <h1 className="capitalize text-[#1F2541] md:pr-0 font-bold md:text-5xl text-2xl">
-                Xpace: Empowering Businesses with Cutting-Edge Digital Expertise
+                Binz: Developing Eco-friendly waste Management Solutions
               </h1>
             </div>
           </div>
           <div className="md:col-span-6 hidden col-span-12 md:flex md:w-3/4 h-full items-center text-[#1F2541] md:mb-0 mb-4 justify-center md:pr-0">
             <p>
-              <span className="text-yellow-900">Xpace</span>, is a dynamic
-              agency specializing in mobile app and web development,
-              hosting/deployment, UI/UX design, consultancy, and cybersecurity.
-              With a passion for delivering cutting-edge solutions, we empower
-              businesses to thrive in the digital landscape. Our team of experts
-              combines creativity, technical prowess, and strategic thinking to
-              create exceptional digital experiences. From intuitive interfaces
-              to robust cybersecurity measures, Xpace is your trusted partner
-              for digital success.
+              <span className="text-yellow-900">Binz by Havitech</span>, is a dynamic
+              agency working towards the revolution of the waste management systems upturning the traditional process of collection and disposal into a more technical and efficient method.
             </p>
           </div>
         </div>
@@ -55,11 +48,7 @@ useCountUp({
           <div className="grid grid-cols-12 gap-3">
             <div className="col-span-12  mb-5">
               <p>
-                At Xpace, we revolutionize the digital landscape through
-                innovation, security, and client delight. With cutting-edge
-                solutions and robust cybersecurity measures, we ensure success
-                in an interconnected world. Make us your partner on the journey
-                to digital excellence.
+              At BinZ, we revolutionize waste management through innovative smart bin solutions. Our technology collects, classifies, and recycles plastic waste efficiently, ensuring a cleaner and more sustainable future. With cutting-edge solutions and robust classification measures, we guarantee the success of your waste management initiatives. Partner with us on the journey to environmental excellence.
               </p>
             </div>
             <div className="col-span-12 flex flex-col gap-5">
@@ -68,11 +57,7 @@ useCountUp({
               </span>
               <span>
                 <p>
-                  <span className="font-bold">Innovation</span> At Xpace, we are
-                  committed to pushing the boundaries of technology and
-                  delivering innovative solutions. We stay up-to-date with the
-                  latest industry trends and leverage emerging technologies to
-                  create digital experiences that are ahead of the curve.
+                  <span className="font-bold">Innovation</span> At BinZ, we redefine waste management through groundbreaking smart bin technology. By harnessing the latest industry trends and cutting-edge innovations, we develop advanced systems that efficiently collect, classify, and recycle plastic waste. Our commitment to pioneering technology ensures a sustainable future and delivers digital solutions that lead the industry.
                 </p>
               </span>
             </div>
@@ -81,12 +66,7 @@ useCountUp({
                 <img src={Tool} alt="" />
               </span>
               <span>
-                <span className="font-bold">Security:</span> We prioritize the
-                security of our clients' digital assets. With the increasing
-                threat of cyberattacks, we implement robust cybersecurity
-                measures to safeguard sensitive data and protect against
-                potential breaches. Our proactive approach ensures that our
-                clients can trust their digital infrastructure is secure.
+                <span className="font-bold">Security:</span> At BinZ, we prioritize the security of our clients' data in smart waste management. Our smart bin systems are designed to safeguard sensitive information, ensuring that all data related to waste collection, classification, and recycling is protected. Clients can trust that their waste management operations and data remain secure at all times.
               </span>
             </div>
           </div>
@@ -97,13 +77,7 @@ useCountUp({
               </span>
               <span>
                 <p>
-                  <span className="font-bold">Customer Satisfaction: </span> We
-                  place a strong emphasis on customer satisfaction and strive to
-                  exceed expectations in every project. We actively listen to
-                  our clients' needs, provide transparent communication
-                  throughout the process, and deliver high-quality solutions
-                  that meet their objectives. Our goal is to build long-lasting
-                  partnerships based on trust and mutual success.
+                  <span className="font-bold">Customer Satisfaction: </span> We place a strong emphasis on user satisfaction and strive to exceed expectations in every project. By actively listening to our clients' needs, we provide transparent communication throughout the process and deliver high-quality smart bin solutions that meet their objectives. Our goal is to build long-lasting partnerships based on trust and mutual success, ensuring that our clients are delighted with the efficiency and effectiveness of our waste management systems.
                 </p>
               </span>
             </div>
