@@ -24,11 +24,11 @@ const data = {
       title: "What services does BinZ provide?",
       content: ` BinZ offers advanced smart bin solutions that focus on the efficient collection, classification, and recycling of plastic waste. Our services emphasize innovative waste management technology, ensuring the secure handling of waste data, and providing timely notifications for waste collection. BinZ aims to enhance user satisfaction through high-quality, transparent communication and effective waste management practices, ultimately contributing to a cleaner and more sustainable environment..`,
     },
-    {
-      title: "How does BinZ approach mobile app and web development?",
-      content:
-        "Our team of skilled professionals combines technical expertise, creativity, and a user-centric approach to deliver exceptional mobile app and web development solutions. We focus on creating seamless experiences, captivating designs, and robust functionality to meet the unique needs of our clients.",
-    },
+    // {
+    //   title: "How does BinZ approach effective waste collection?",
+    //   content:
+    //     "Our team of skilled professionals combines technical expertise, creativity, and a user-centric approach to deliver exceptional mobile app and web development solutions. We focus on creating seamless experiences, captivating designs, and robust functionality to meet the unique needs of our clients.",
+    // },
     {
       title: " How do I get started with BinZ?",
       content: `Getting started is easy! Simply reach out to us through our social handles or contact links. We'll promise prompt response from our Help Desk team.`,
