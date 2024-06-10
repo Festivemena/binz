@@ -1,16 +1,16 @@
 import "./App.css";
 import logo from "../src/assets/images/sb.png";
-import consult from "../src/assets/images/consult.png";
-import security from "../src/assets/images/security.png";
-import mobile from "../src/assets/images/mobile.png";
+// import consult from "../src/assets/images/consult.png";
+// import security from "../src/assets/images/security.png";
+import mobile from "../src/assets/images/mobile2.png";
 import splash from "../src/assets/images/Group.png";
-import host from "../src/assets/images/hosting.png";
-import ui from "../src/assets/images/ui.png";
-import web from "../src/assets/images/website.png";
-import React, { useEffect, useState } from "react";
+import host from "../src/assets/images/host.png";
+// import ui from "../src/assets/images/ui.png";
+import web from "../src/assets/images/web.png";
+import React, { useState } from "react";
 import Faq from "react-faq-component";
 import { FaBars, FaInstagram, FaTwitter } from "react-icons/fa";
-import TypeWriterEffect from "react-typewriter-effect";
+// import TypeWriterEffect from "react-typewriter-effect";
 import TextTransition, { presets } from "react-text-transition";
 import More from "./components/More";
 import { FaSignOutAlt } from "react-icons/fa";
@@ -48,10 +48,10 @@ const data = {
 
 
 
-const styles = {
-  bgColor: "none",
-  Cursor: "pointer",
-};
+// const styles = {
+//   bgColor: "none",
+//   Cursor: "pointer",
+// };
 
 const TEXTS = ["Solutions for Cleaner Environments", "Solutions for Efficient Waste Collection"];
 
@@ -85,7 +85,7 @@ const handleCloseModal = () => {
           <div className="flex flex-row w-full items-center justify-between pb-3 my-6 border-b-2 font-outfit mx-10 md:mx-0">
             {/* logo */}
             <div className="md:w-[15%] w-[140px]">
-              <img src={logo} alt="xpace-logo" className="" />
+              <img src={logo} alt="binz-logo" className="" />
             </div>
             <div>
               <button
@@ -97,9 +97,9 @@ const handleCloseModal = () => {
               {isOpen && (
                 <div class="fixed  inset-0 flex items-center justify-center z-50">
                   <div class="fixed inset-0 bg-black opacity-50"></div>
-                  <div className="absolute transform -mt-80 bg-white text-red-500 rounded-lg p-8 w-[70%] h-[40%] outline-none ">
-                    <div className="text-[#1E212B] justify-self-center items-center  flex-col flex text-3xl mt-5 gap-7 font-outfit ">
-                      <span>
+                  <div className="absolute transform -mt-80 bg-white text-red-500 rounded-lg p-8 w-[55%] h-[30%] outline-none ">
+                    <div className="text-[#1E212B] justify-self-center items-center  flex-col flex gap-4 font-outfit ">
+                      <span className="text-2xl">
                         <Link
                           to="more"
                           spy={true}
@@ -113,7 +113,7 @@ const handleCloseModal = () => {
                           About
                         </Link>
                       </span>
-                      <span>
+                      <span className="text-2xl">
                         <Link
                           to="about"
                           spy={true}
@@ -126,7 +126,7 @@ const handleCloseModal = () => {
                           Services
                         </Link>
                       </span>
-                      <span>
+                      <span className="text-2xl">
                         <Link
                           to="accordion"
                           spy={true}
@@ -142,7 +142,7 @@ const handleCloseModal = () => {
                     </div>
                     <button
                       onClick={handleCloseModal}
-                      className="items-center justify-center text-2xl flex mt-10"
+                      className="items-center justify-center text-2xl flex mt-5"
                     >
                       <FaSignOutAlt />
                     </button>
@@ -242,6 +242,7 @@ const handleCloseModal = () => {
         <div className="flex pt-6 justify-center items-center">
           <img
             src={splash}
+            alt="Splash"
             className="bg-transparent h-60 w-80 md:h-[400px] md:w-[600px]"
           />
         </div>
@@ -274,7 +275,7 @@ const handleCloseModal = () => {
               <div className="w-[100%] justify-center flex flex-col md:flex-row md:gap-10 gap-6">
                 <div className="  bg-blue-100 border-2 border-black  md:px-4 mt-6 mx-4 shadow-solid-about rounded flex-col items-center justify-center text-center">
                   <div className=" flex md:mx-40 mx-28 items-center w-[100px] h-[50px]">
-                    <img src={mobile} /> 
+                    <img src={mobile} alt="mobile" /> 
                   </div>
                   <h1 className="md:text-3xl text-xl text-violet-600 font-semibold pt-5">
                     Waste Collection
@@ -285,7 +286,7 @@ const handleCloseModal = () => {
                 </div>
                 <div className=" bg-blue-100 border-2 border-black  md:px-4 mt-6 mx-4 shadow-solid-about rounded flex-col items-center justify-center text-center">
                   <div className=" flex md:mx-40 mx-28 items-center w-[100px] h-[50px]">
-                    <img src={web} />
+                    <img src={web} alt="web" />
                   </div>
                   <h1 className="md:text-3xl text-xl text-orange-500 font-semibold pt-5">
                     Waste Classification
@@ -296,7 +297,7 @@ const handleCloseModal = () => {
                 </div>
                 <div className=" bg-blue-100 mt-6 mx-4 border-2 border-black  md:px-4 shadow-solid-about rounded flex-col items-center justify-center text-center">
                   <div className=" flex md:mx-40 mx-28 items-center w-[100px] h-[50px]">
-                    <img src={host} />
+                    <img src={host} alt="host" />
                   </div>
                   <h1 className="md:text-3xl text-xl text-green-600 font-semibold pt-5">
                     Effective Recycling
