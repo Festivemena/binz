@@ -122,9 +122,9 @@ useCountUp({
                 </div>
                 <div className="flex flex-col">
                   <span className="font-bold text-5xl">
-                    <CountUp end={99} enableScrollSpy />+
+                    <CountUp end={1} enableScrollSpy />+
                   </span>
-                  <span className="text-sm font-bold">Solutions</span>
+                  <span className="text-sm font-bold">Solution</span>
                 </div>
               </div>
             </div>
@@ -137,7 +137,7 @@ useCountUp({
                   <span className="font-bold text-5xl">
                     <CountUp end={100} enableScrollSpy />%
                   </span>
-                  <span className="text-sm font-bold">Satisfactions</span>
+                  <span className="text-sm font-bold">Satisfaction</span>
                 </div>
               </div>
             </div>
