@@ -413,7 +413,7 @@ const handleCloseModal = () => {
                   </a>
                   <span className="md:text-2xl cursor-pointer">
                     <a
-                      href="https://twitter.com/xpacehq"
+                      href="https://twitter.com/usebinz"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -423,7 +423,7 @@ const handleCloseModal = () => {
                   <span className="text-xs">|</span>
                   <span className="md:text-2xl cursor-pointer">
                     <a
-                      href="https://instagram.com/webxpace"
+                      href="https://www.instagram.com/usebinz"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
