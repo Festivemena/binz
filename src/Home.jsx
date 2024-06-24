@@ -275,7 +275,7 @@ const handleCloseModal = () => {
               <div className="w-[100%] justify-center flex flex-col md:flex-row md:gap-10 gap-6">
                 <div className="  bg-blue-100 border-2 border-black  md:px-4 mt-6 mx-4 shadow-solid-about rounded flex-col items-center justify-center text-center">
                   <div className=" flex md:mx-40 mx-20 text-center items-center w-[100px] h-[50px]">
-                    <img src={mobile} className="w-full ml-[75px]  flex text-center items-center justify-center" alt="mobile" /> 
+                    <img src={mobile} className="w-full ml-[60px]  flex text-center items-center justify-center" alt="mobile" /> 
                   </div>
                   <h1 className="md:text-3xl text-xl text-violet-600 font-semibold pt-5">
                     Waste Collection
@@ -286,7 +286,7 @@ const handleCloseModal = () => {
                 </div>
                 <div className=" bg-blue-100 border-2 border-black  md:px-4 mt-6 mx-4 shadow-solid-about rounded flex-col items-center justify-center text-center">
                   <div className=" flex md:mx-40 mx-28 items-center w-[100px] h-[50px]">
-                    <img src={web} alt="web" />
+                    <img src={web} className="ml-[60px] alt="web" />
                   </div>
                   <h1 className="md:text-3xl text-xl text-orange-500 font-semibold pt-5">
                     Waste Classification
@@ -297,7 +297,7 @@ const handleCloseModal = () => {
                 </div>
                 <div className=" bg-blue-100 mt-6 mx-4 border-2 border-black  md:px-4 shadow-solid-about rounded flex-col items-center justify-center text-center">
                   <div className=" flex md:mx-40 mx-28 items-center w-[100px] h-[50px]">
-                    <img src={host} alt="host" />
+                    <img src={host} className="ml-[60px]" alt="host" />
                   </div>
                   <h1 className="md:text-3xl text-xl text-green-600 font-semibold pt-5">
                     Effective Recycling
