@@ -275,7 +275,7 @@ const handleCloseModal = () => {
               <div className="w-[100%] justify-center flex flex-col md:flex-row md:gap-10 gap-6">
                 <div className="  bg-blue-100 border-2 border-black  md:px-4 mt-6 mx-4 shadow-solid-about rounded flex-col items-center justify-center text-center">
                   <div className=" flex md:mx-40 mx-20 text-center items-center w-[100px] h-[50px]">
-                    <img src={mobile} className="w-full ml-[15%]  flex text-center items-center justify-center" alt="mobile" /> 
+                    <img src={mobile} className="w-full ml-[35px]  flex text-center items-center justify-center" alt="mobile" /> 
                   </div>
                   <h1 className="md:text-3xl text-xl text-violet-600 font-semibold pt-5">
                     Waste Collection
