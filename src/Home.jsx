@@ -262,7 +262,7 @@ const handleCloseModal = () => {
               {/* <h2 className="md:text-3xl md:text-end pr-2 text-lg text-black pb-4">
                 What we offer{"  "}
                 <span className="text-gray-400 pr-6" id="span-xlistics">
-                  @Xpace
+                  @Binz
                 </span>{" "}
               </h2> */}
             </div>
@@ -274,7 +274,7 @@ const handleCloseModal = () => {
             <div className=" h-full items-center md:mt-0 mt-6 justify-center md:mx-6 mx-6 flex-col flex md:gap-32 gap-6 font-outfit ">
               <div className="w-[100%] justify-center flex flex-col md:flex-row md:gap-10 gap-6">
                 <div className="  bg-blue-100 border-2 border-black  md:px-4 mt-6 mx-4 shadow-solid-about rounded flex-col items-center justify-center text-center">
-                  <div className=" flex md:mx-40 mx-28 items-center w-[100px] h-[50px]">
+                  <div className=" flex md:mx-40 mx-20 text-center items-center w-[100px] h-[50px]">
                     <img src={mobile} alt="mobile" /> 
                   </div>
                   <h1 className="md:text-3xl text-xl text-violet-600 font-semibold pt-5">
