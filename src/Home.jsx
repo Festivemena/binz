@@ -250,127 +250,87 @@ const handleCloseModal = () => {
         <hr className="md:my-10" />
 
         {/* ---About section--- */}
-        <div
-          className="w-full h-full flex flex-col md:mb-40 md:flex-row justify-start relative"
-          id="about"
-        >
-          <div className="max-w-[1200px] w-full mx-auto my-10">
-            <div className="w-full font-outfit md:mt-10 border-r-green-800 md:border-r-green-800 md:border-t-0 md:border-l-0 md:border-b-0 md:border-r-4 pr-5 md:ml-0 ml-6">
-              <h1 className="md:text-7xl md:text-end text-3xl md:pb-3">
-                Our services{" "}
-              </h1>
-              {/* <h2 className="md:text-3xl md:text-end pr-2 text-lg text-black pb-4">
-                What we offer{"  "}
-                <span className="text-gray-400 pr-6" id="span-xlistics">
-                  @Binz
-                </span>{" "}
-              </h2> */}
-            </div>
-            <div className="w-full ">
-              <h1 className="hidden md:flex font-extralight md:text-3xl text-start text-xl text-pink-500">
-                Our Arsenal of Digital Marvels;{" "}
-              </h1>
-            </div>
-            <div className=" h-full items-center md:mt-0 mt-6 justify-center md:mx-6 mx-6 flex-col flex md:gap-32 gap-6 font-outfit ">
-              <div className="w-[100%] justify-center flex flex-col md:flex-row md:gap-10 gap-6">
-                <div className="  bg-blue-100 border-2 border-black  md:px-4 mt-6 mx-4 shadow-solid-about rounded flex-col items-center justify-center text-center">
-                  <div className=" flex md:mx-40 mx-20 text-center items-center w-[100px] h-[50px]">
-                    <img src={mobile} className="w-full ml-[60px]  flex text-center items-center justify-center" alt="mobile" /> 
-                  </div>
-                  <h1 className="md:text-3xl text-xl text-violet-600 font-semibold pt-5">
-                    Waste Collection
-                  </h1>
-                  <h5 className="text-sm md:text-md flex p-4 md:px-8 md:pt-5">
-                  Our innovative solution at BinZ ensures the effective and hygienic collection of waste, preventing contamination and disease spread. Our smart bins create a barrier between users and collected trash, ensuring safety and cleanliness. Additionally, when a bin is full, our system promptly notifies waste collection officers for immediate pick-up, ensuring efficient and timely waste management.
-                  </h5>
-                </div>
-                <div className=" bg-blue-100 border-2 border-black  md:px-4 mt-6 mx-4 shadow-solid-about rounded flex-col items-center justify-center text-center">
-                  <div className=" flex md:mx-40 mx-28 items-center w-[100px] h-[50px]">
-                    <img src={web} className="ml-[60px]" alt="web" />
-                  </div>
-                  <h1 className="md:text-3xl text-xl text-orange-500 font-semibold pt-5">
-                    Waste Classification
-                  </h1>
-                  <h5 className="text-sm md:text-md p-4 md:px-8 md:pt-5">
-                  BinZ stands as a testament to effective waste classification. Our advanced smart bin technology ensures precise sorting of waste, maximizing recycling efficiency and minimizing environmental impact. With BinZ, waste is meticulously classified, contributing to a cleaner and more sustainable future.
-                  </h5>
-                </div>
-                <div className=" bg-blue-100 mt-6 mx-4 border-2 border-black  md:px-4 shadow-solid-about rounded flex-col items-center justify-center text-center">
-                  <div className=" flex md:mx-40 mx-28 items-center w-[100px] h-[50px]">
-                    <img src={host} className="ml-[60px]" alt="host" />
-                  </div>
-                  <h1 className="md:text-3xl text-xl text-green-600 font-semibold pt-5">
-                    Effective Recycling
-                  </h1>
-                  <h5 className="text-sm md:text-md  p-4 md:px-8 md:pt-5">
-                  With our advanced recycling solutions, you can rest assured that waste management is in capable hands. We handle the complexities of waste collection and classification, allowing you to focus on your core business and deliver exceptional results. Experience the peace of mind that comes with efficient recycling and reliable waste management, and let us take your sustainability efforts to new heights.
-                  </h5>
-                </div>
-              </div>
-
-              {/* <div className="w-[100%] justify-center mt-5 flex flex-col md:flex-row md:gap-10 gap-6">
-                <div className="  bg-blue-100 mx-4 border-2 border-black  md:px-4 shadow-solid-about-2 rounded flex-col items-center justify-center text-center">
-                  <div className=" flex md:mx-40 mx-28 items-center w-[100px] h-[50px]">
-                    <img src={ui} />
-                  </div>
-                  <h1 className="md:text-3xl text-xl text-pink-700 font-semibold pt-5">
-                    UI/UX
-                  </h1>
-                  <h5 className="text-sm md:text-md flex p-4 md:px-8 md:pt-5">
-                    Crafting Seamless Experiences: Elevate your digital presence
-                    with our exceptional UI/UX design service. Our team of
-                    skilled designers combines creativity and expertise to
-                    create captivating interfaces that engage users and drive
-                    results. From intuitive navigation to visually stunning
-                    aesthetics, we bring your vision to life, ensuring every
-                    interaction is a delightful journey. Experience the power of
-                    design that captivates, inspires, and leaves a lasting
-                    impression.
-                  </h5>
-                </div>
-                <div className=" bg-blue-100 border-2 border-black  md:px-4 mt-6 mx-4 shadow-solid-about-2 rounded flex-col items-center justify-center text-center">
-                  <div className=" flex md:mx-40 mx-28 items-center w-[100px] h-[50px]">
-                    <img src={security} />
-                  </div>
-                  <h1 className="md:text-3xl text-xl text-brown-500 font-semibold pt-5">
-                    Cyber Security
-                  </h1>
-                  <h5 className="text-sm md:text-md p-4 md:px-8 md:pt-5">
-                    we unravel the intricate tales of cyber threats,
-                    anticipating their every move. Our proactive approach
-                    identifies vulnerabilities before they can be exploited,
-                    fortifying your defenses and ensuring your digital empire
-                    remains impenetrable. But our mission goes beyond
-                    protection. We empower you with knowledge, equipping you to
-                    navigate the treacherous digital landscape. Through
-                    comprehensive audits, training programs, and strategic
-                    guidance, we empower you to become the hero of your own
-                    cybersecurity story.
-                  </h5>
-                </div>
-                <div className=" bg-blue-100 mt-6 mx-4 border-2 border-black  md:px-4 shadow-solid-about-2 rounded flex-col items-center justify-center text-center">
-                  <div className=" flex md:mx-40 mx-28 items-center w-[100px] h-[50px]">
-                    <img src={consult} />
-                  </div>
-                  <h1 className="md:text-3xl text-xl text-yellow-600 font-semibold pt-5">
-                    Consultancy
-                  </h1>
-                  <h5 className="text-sm md:text-md p-4 md:px-8 md:pt-5">
-                    Our consultancy services extend beyond advice. We work
-                    collaboratively with your team, providing hands-on support
-                    and guidance throughout the implementation process. We
-                    believe in building long-lasting partnerships, and our
-                    commitment to your success remains unwavering. Whether
-                    you're a startup looking to disrupt the market or an
-                    established enterprise seeking to stay ahead of the
-                    competition, let's unlock your business potential and embark
-                    on a journey of growth and success.
-                  </h5>
-                </div>
-              </div> */}
-            </div>
+<div
+  className="w-full h-full flex flex-col md:mb-40 md:flex-row justify-start relative"
+  id="about"
+>
+  <div className="max-w-[1200px] w-full mx-auto my-10">
+    <div className="w-full font-outfit md:mt-10 border-r-green-800 md:border-r-green-800 md:border-t-0 md:border-l-0 md:border-b-0 md:border-r-4 pr-5 md:ml-0 ml-6">
+      <h1 className="md:text-7xl md:text-end text-3xl md:pb-3">
+        Our services{" "}
+      </h1>
+    </div>
+    <div className="w-full">
+      <h1 className="hidden md:flex font-extralight md:text-3xl text-start text-xl text-pink-500">
+        Our Arsenal of Digital Marvels;{" "}
+      </h1>
+    </div>
+    <div className=" h-full items-center md:mt-0 mt-6 justify-center md:mx-6 mx-6 flex-col flex md:gap-32 gap-6 font-outfit ">
+      <div className="w-[100%] justify-center flex flex-col md:flex-row md:gap-10 gap-6">
+        <div className="bg-blue-100 border-2 border-black md:px-4 mt-6 mx-4 shadow-solid-about rounded flex-col items-center justify-center text-center">
+          <div className="flex justify-center items-center w-full h-[50px]">
+            <img
+              src={mobile}
+              className="w-[100px] h-[50px]"
+              alt="mobile"
+            />
           </div>
+          <h1 className="md:text-3xl text-xl text-violet-600 font-semibold pt-5">
+            Waste Collection
+          </h1>
+          <h5 className="text-sm md:text-md flex p-4 md:px-8 md:pt-5">
+            Our innovative solution at BinZ ensures the effective and hygienic
+            collection of waste, preventing contamination and disease spread.
+            Our smart bins create a barrier between users and collected trash,
+            ensuring safety and cleanliness. Additionally, when a bin is full,
+            our system promptly notifies waste collection officers for immediate
+            pick-up, ensuring efficient and timely waste management.
+          </h5>
         </div>
+        <div className="bg-blue-100 border-2 border-black md:px-4 mt-6 mx-4 shadow-solid-about rounded flex-col items-center justify-center text-center">
+          <div className="flex justify-center items-center w-full h-[50px]">
+            <img
+              src={web}
+              className="w-[100px] h-[50px]"
+              alt="web"
+            />
+          </div>
+          <h1 className="md:text-3xl text-xl text-orange-500 font-semibold pt-5">
+            Waste Classification
+          </h1>
+          <h5 className="text-sm md:text-md p-4 md:px-8 md:pt-5">
+            BinZ stands as a testament to effective waste classification. Our
+            advanced smart bin technology ensures precise sorting of waste,
+            maximizing recycling efficiency and minimizing environmental
+            impact. With BinZ, waste is meticulously classified, contributing to
+            a cleaner and more sustainable future.
+          </h5>
+        </div>
+        <div className="bg-blue-100 border-2 border-black md:px-4 mt-6 mx-4 shadow-solid-about rounded flex-col items-center justify-center text-center">
+          <div className="flex justify-center items-center w-full h-[50px]">
+            <img
+              src={host}
+              className="w-[100px] h-[50px]"
+              alt="host"
+            />
+          </div>
+          <h1 className="md:text-3xl text-xl text-green-600 font-semibold pt-5">
+            Effective Recycling
+          </h1>
+          <h5 className="text-sm md:text-md p-4 md:px-8 md:pt-5">
+            With our advanced recycling solutions, you can rest assured that
+            waste management is in capable hands. We handle the complexities of
+            waste collection and classification, allowing you to focus on your
+            core business and deliver exceptional results. Experience the peace
+            of mind that comes with efficient recycling and reliable waste
+            management, and let us take your sustainability efforts to new
+            heights.
+          </h5>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
         <div id="more">
           <More />
