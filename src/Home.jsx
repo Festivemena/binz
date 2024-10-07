@@ -198,21 +198,15 @@ const handleCloseModal = () => {
 
             {/* join waitlist btn */}
             <div className="hidden justify-end md:flex">
-              <a
-                href="https://grwa014ja7o.typeform.com/to/IyD9p2Wg"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
                 <button
                   className="shadow-solid-primary
                border-2 border-black py-2 px-4
               ease-out text-black hover:bg-black hover:text-[#fffffe] rounded-3xl capitalize font-semibold transition"
                 >
                   <span className="flex items-center justify-center">
-                    <label>Join Waitlist</label>
+                    <label>Coming Soon</label>
                   </span>
                 </button>
-              </a>
             </div>
             {/* The button to open modal */}
           </div>
@@ -359,19 +353,13 @@ const handleCloseModal = () => {
                 </div>
 
                 <div className="flex flex-row items-center justify-center gap-5 md:pt-9 md:mb-0 mb-5">
-                  <a
-                    href="https://grwa014ja7o.typeform.com/to/IyD9p2Wg"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
                     <button
                       className="shadow-solid-primary
                border-2 border-black py-2 px-4
               ease-out text-black hover:bg-black hover:text-[#fffffe] rounded-md btn-sm md:btn-md flex items-center justify-center capitalize font-semibold transition"
                     >
-                      <label>Join Waitlist</label>
+                      <label>Coming Soon!</label>
                     </button>
-                  </a>
                   <span className="md:text-2xl cursor-pointer">
                     <a
                       href="https://twitter.com/usebinz"
