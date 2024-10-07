@@ -271,7 +271,7 @@ const handleCloseModal = () => {
           <div className="flex justify-center items-center w-full h-[50px]">
             <img
               src={mobile}
-              className="w-[100px] h-[50px]"
+              className="w-[100px] h-[100px]"
               alt="mobile"
             />
           </div>
@@ -291,7 +291,7 @@ const handleCloseModal = () => {
           <div className="flex justify-center items-center w-full h-[50px]">
             <img
               src={web}
-              className="w-[100px] h-[50px]"
+              className="w-[100px] h-[100px]"
               alt="web"
             />
           </div>
@@ -310,7 +310,7 @@ const handleCloseModal = () => {
           <div className="flex justify-center items-center w-full h-[50px]">
             <img
               src={host}
-              className="w-[100px] h-[50px]"
+              className="w-[100px] h-[100px]"
               alt="host"
             />
           </div>
