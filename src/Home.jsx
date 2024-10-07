@@ -265,11 +265,10 @@ const handleCloseModal = () => {
         Our Arsenal of Digital Marvels;{" "}
       </h1>
     </div>
-    <div className="h-full items-center md:mt-0 mt-6 justify-center md:mx-6 mx-6 flex-col flex md:gap-32 gap-6 font-outfit">
-      <div className="w-full justify-center flex flex-col md:flex-row md:gap-10 gap-6">
-        {/* First Div */}
-        <div className="bg-blue-100 border-2 border-black md:px-4 mt-6 mx-4 shadow-solid-about rounded flex-col items-center justify-center text-center w-[300px] h-[400px] md:w-[300px] md:h-[400px]">
-          <div className="flex justify-center items-center w-full h-[100px]">
+    <div className=" h-full items-center md:mt-0 mt-6 justify-center md:mx-6 mx-6 flex-col flex md:gap-32 gap-6 font-outfit ">
+      <div className="w-[100%] justify-center flex flex-col md:flex-row md:gap-10 gap-6">
+        <div className="bg-blue-100 border-2 border-black md:px-4 mt-6 mx-4 shadow-solid-about rounded flex-col items-center justify-center text-center">
+          <div className="flex justify-center items-center w-full h-[50px]">
             <img
               src={mobile}
               className="w-[100px] h-[50px]"
@@ -288,9 +287,8 @@ const handleCloseModal = () => {
             pick-up, ensuring efficient and timely waste management.
           </h5>
         </div>
-        {/* Second Div */}
-        <div className="bg-blue-100 border-2 border-black md:px-4 mt-6 mx-4 shadow-solid-about rounded flex-col items-center justify-center text-center w-[300px] h-[400px] md:w-[300px] md:h-[400px]">
-          <div className="flex justify-center items-center w-full h-[100px]">
+        <div className="bg-blue-100 border-2 border-black md:px-4 mt-6 mx-4 shadow-solid-about rounded flex-col items-center justify-center text-center">
+          <div className="flex justify-center items-center w-full h-[50px]">
             <img
               src={web}
               className="w-[100px] h-[50px]"
@@ -308,9 +306,8 @@ const handleCloseModal = () => {
             a cleaner and more sustainable future.
           </h5>
         </div>
-        {/* Third Div */}
-        <div className="bg-blue-100 border-2 border-black md:px-4 mt-6 mx-4 shadow-solid-about rounded flex-col items-center justify-center text-center w-[300px] h-[400px] md:w-[300px] md:h-[400px]">
-          <div className="flex justify-center items-center w-full h-[100px]">
+        <div className="bg-blue-100 border-2 border-black md:px-4 mt-6 mx-4 shadow-solid-about rounded flex-col items-center justify-center text-center">
+          <div className="flex justify-center items-center w-full h-[50px]">
             <img
               src={host}
               className="w-[100px] h-[50px]"
@@ -334,6 +331,7 @@ const handleCloseModal = () => {
     </div>
   </div>
 </div>
+
 
         <div id="more">
           <More />
