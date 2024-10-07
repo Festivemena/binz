@@ -438,7 +438,7 @@ const handleCloseModal = () => {
         <div className="w-full h-full flex items-end justify-center py-3 text-center px-6 bg-gray-800">
           <h1 className="flex gap-2 font-thin text-gray-500 md:text-lg text-sm ">
             © 2024 BinZ inc. All Rights Reserved.
-            <a className="text-violet-500" href="mailto:product@xpace.rocks" >product@binz.rocks</a>
+            <a className="text-violet-500" href="mailto:admin@byhavi.tech" >admin@byhavi.tech</a>
           </h1>
         </div>
       </div>
