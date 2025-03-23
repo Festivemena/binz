@@ -40,7 +40,7 @@ useCountUp({
           <div className="md:col-span-6 hidden col-span-12 md:flex md:w-3/4 h-full items-center text-[#1F2541] md:mb-0 mb-4 justify-center md:pr-0">
             <p>
               <span className="text-yellow-900">Binz by Havitech</span>, is a dynamic
-              agency working towards the revolution of the waste management systems upturning the traditional process of collection and disposal into a more technical and efficient method.
+              Force working towards the revolution of the waste management systems upturning the traditional process of collection and disposal into a more technical and efficient method.
             </p>
           </div>
         </div>
